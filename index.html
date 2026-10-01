@@ -1,0 +1,453 @@
+<!--AHLI KUMPULAN
+Akmal Bin Zaini (20DIT25F2022)
+Raynore Rudin (20DIT25F2015)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarawak Tour Package</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- jQuery Mobile -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <style>
+        [title~=image] {
+            border-radius: 5px solid black;
+            width: 600px;
+            height: 600px;
+        }
+    </style>
+
+</head>
+<body>
+
+
+
+<!-- HOME PAGE -->
+ <div class="container">
+<div data-role="page" id="home">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="b">
+        <h1>Sarawak Tour</h1>
+    </div>
+
+
+    <!-- Navigation -->
+    <div data-role="navbar">
+
+        <ul>
+            <li>
+                <a href="#home" class="ui-btn-active"data-icon="home"> Home </a>
+            </li>
+
+            <li>
+                <a href="#packages" data-icon="grid"> Packages </a>
+            </li>
+
+            <li>
+                <a href="#booking" data-icon="edit"> Booking </a>
+            </li>
+
+            <li>
+                <a href="#contact" data-icon="phone"> Contact </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Content -->
+    <div data-role="content">
+
+        <h2>Welcome to Sarawak Tour</h2>
+
+        <img src="image/sarawak.jpg" class="main-image" alt="Sarawak" title="image">
+
+        <p> Explore beautiful destinations around Sarawak with our affordable tour packages. </p>
+
+
+        <a href="#packages" data-role="button" data-theme="b" data-transition="slide"> Explore Tour Packages </a>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div data-role="footer" data-theme="b">
+
+        <h4>Sarawak Tour Package 2026</h4>
+
+    </div>
+
+</div>
+
+<!-- TOUR PACKAGES PAGE -->
+<div data-role="page" id="packages">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="b">
+
+        <h1>Tour Packages</h1>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <div data-role="navbar">
+
+        <ul>
+
+            <li>
+                <a href="#home"data-icon="home">Home</a>
+            </li>
+
+            <li>
+                <a href="#packages" class="ui-btn-active" data-icon="grid">Packages</a>
+            </li>
+
+            <li>
+                <a href="#booking" data-icon="edit"> Booking </a>
+            </li>
+
+            <li>
+                <a href="#contact" data-icon="phone"> Contact </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Content -->
+    <div data-role="content">
+
+        <h2>Available Tour Packages</h2>
+
+
+        <!-- Package 1 -->
+        <div class="tour-card">
+
+            <h3>Kuching City Tour</h3>
+
+            <img src="image/kuching.png" alt="Kuching Tour" title="image">
+
+            <p>Explore the beautiful city of Kuching.</p>
+
+            <div data-role="collapsible" data-theme="a" data-content-theme="a" data-icon="info">
+                <h4>Tour Information</h4>
+                <P>Duration: 2 Days 1 Night | RM250</P>
+            </div>
+
+        </div>
+
+
+        <!-- Package 2 -->
+        <div class="tour-card">
+
+            <h3>Mulu National Park</h3>
+
+            <img src="image/mulu.png" alt="Mulu Tour" title="image">
+
+            <p>Discover caves and natural attractions.</p>
+
+            <div data-role="collapsible" data-theme="a" data-content-theme="a" data-icon="info">
+                <h4>Tour Information</h4>
+                <P>Duration: 2 Days 1 Night | RM280</P>
+            </div>
+
+        </div>
+
+
+        <!-- Package 3 -->
+        <div class="tour-card">
+
+            <h3>Damai Beach Tour</h3>
+
+            <img src="image/damai.jpg" alt="Damai Beach" title="image">
+
+            <p> Enjoy a relaxing holiday at Damai Beach. </p>
+
+            <div data-role="collapsible" data-theme="a" data-content-theme="a" data-icon="info">
+                <h4>Tour Information</h4>
+                <P>Duration: 2 Days 1 Night | RM300</P>
+            </div>
+
+        </div>
+
+
+        <a href="#booking" data-role="button" data-theme="b" data-transition="slide"> Book Now </a>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div data-role="footer"data-theme="b">
+
+        <h4>Sarawak Tour Package 2026</h4>
+
+    </div>
+
+</div>
+
+<!-- BOOKING PAGE -->
+
+
+<div data-role="page" id="booking">
+
+    <!-- Header -->
+    <div data-role="header "data-theme="b">
+
+        <h1>Tour Booking</h1>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <div data-role="navbar">
+        <ul>
+
+            <li>
+                <a href="#home" data-icon="home"> Home </a>
+            </li>
+
+            <li>
+                <a href="#packages" data-icon="grid"> Packages </a>
+            </li>
+
+            <li>
+                <a href="#booking" class="ui-btn-active"  data-icon="edit"> Booking </a>
+            </li>
+
+            <li>
+                <a href="#contact" data-icon="phone"> Contact </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Content -->
+    <div data-role="content">
+
+        <h2>Booking Form</h2>
+
+
+        <form id="bookingForm" onsubmit="return validateBooking()">
+
+
+            <!-- Name -->
+            <label for="bookingName"> Name </label>
+
+            <input type="text" id="bookingName" placeholder="Enter your name">
+
+
+            <!-- Phone -->
+            <label for="phone">Phone Number</label>
+
+            <input type="text" id="phone" placeholder="Enter your phone number">
+
+
+            <!-- Email -->
+            <label for="bookingEmail">Email</label>
+
+            <input type="email" id="bookingEmail" placeholder="name@example.com">
+
+
+            <!-- Travel Date -->
+            <label for="travelDate">Travel Date</label>
+
+            <input type="date" id="travelDate">
+
+
+            <!-- Participants -->
+            <label for="participants">Number of Participants</label>
+
+            <input type="number" id="participants" placeholder="Enter number">
+
+
+            <!-- Tour Package -->
+            <label for="tourPackage">Tour Package</label>
+
+            <select id="tourPackage">
+
+                <option value="">Select Tour Package</option>
+
+                <option value="Kuching City Tour">Kuching City Tour</option>
+
+                <option value="Mulu National Park">Mulu National Park</option>
+
+                <option value="Damai Beach Tour">Damai Beach Tour</option>
+
+            </select>
+
+
+            <!-- Submit -->
+            <input type="submit" value="Submit Booking" data-theme="b">
+
+        </form>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div data-role="footer" data-theme="b">
+
+        <h4>Sarawak Tour Package 2026</h4>
+
+    </div>
+
+</div>
+
+
+
+
+<!-- CONTACT US PAGE -->
+
+
+<div data-role="page" id="contact">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="b">
+
+        <h1>Contact Us</h1>
+
+    </div>
+
+
+    <!-- Navigation -->
+    <div data-role="navbar">
+
+        <ul>
+
+            <li>
+                <a href="#home"
+                   data-icon="home">Home</a>
+            </li>
+
+            <li>
+                <a href="#packages"
+                   data-icon="grid"> Packages</a>
+            </li>
+
+            <li>
+                <a href="#booking" data-icon="edit">Booking</a>
+            </li>
+
+            <li>
+                <a href="#contact" class="ui-btn-active" data-icon="phone">Contact</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Content -->
+    <div data-role="content">
+
+        <h2>Contact Us</h2>
+
+        <p>If you have any questions,please contact us.</p>
+
+
+        <!-- Open Modal -->
+        <a href="#contactModal" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-btn-b">Contact Us Form</a>
+
+
+        <!-- Modal / Popup -->
+        <div data-role="popup" id="contactModal" class="ui-content" data-dismissible="false">
+
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+
+
+            <h3>Contact Us</h3>
+
+
+            <form id="contactForm" onsubmit="return validateContact()">
+
+
+                <!-- Name -->
+                <label for="contactName">Name</label>
+
+                <input type="text" id="contactName" placeholder="Enter your name">
+
+
+                <!-- Email -->
+                <label for="contactEmail">Email</label>
+
+                <input type="email" id="contactEmail" placeholder="name@example.com">
+
+
+                <!-- Message -->
+                <label for="message">Message</label>
+
+                <textarea id="message" placeholder="Enter your message"></textarea>
+
+
+                <!-- Ethical Consent -->
+                <label>
+
+                    <input type="checkbox" id="consent"> I agree that my information can be used responsibly for this enquiry.
+
+                </label>
+
+
+                <!-- Error Message -->
+                <p id="contactError" class="error-message"></p>
+
+
+                <!-- Submit -->
+                <input type="submit" value="Submit" data-theme="b">
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div data-role="footer" data-theme="b">
+
+        <h4>Sarawak Tour Package 2026</h4>
+
+    </div>
+
+</div>
+
+<script>
+    function validateBooking() {
+        var name = document.getElementById("bookingName").value;
+        var phone = document.getElementById("phone").value;
+        if (name == "" || phone == "") {
+            alert("Please fill in all the spaces!");
+            return false;
+        }
+        alert("Your booking was successful!");
+        return true;
+    }
+</script>
+
+</div>
+
+</body>
+</html>
